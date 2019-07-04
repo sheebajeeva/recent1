@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="58975" started-at="2019-07-01T12:08:22Z" finished-at="2019-07-01T12:09:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="58975" started-at="2019-07-01T12:08:22Z" finished-at="2019-07-01T12:09:21Z">
+      <class name="stepdefinition.Login">
+        <test-method status="PASS" signature="configureBrowser()[pri:0, instance:stepdefinition.Login@26653222]" name="configureBrowser" is-config="true" duration-ms="41323" started-at="2019-07-01T17:38:22Z" finished-at="2019-07-01T17:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureBrowser -->
+        <test-method status="PASS" signature="click_submit_button()[pri:0, instance:stepdefinition.Login@26653222]" name="click_submit_button" duration-ms="52" started-at="2019-07-01T17:39:04Z" finished-at="2019-07-01T17:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_submit_button -->
+        <test-method status="FAIL" signature="user_enters_the_username_as_And_password_as(java.lang.String, java.lang.String)[pri:0, instance:stepdefinition.Login@26653222]" name="user_enters_the_username_as_And_password_as" duration-ms="0" started-at="2019-07-01T17:39:04Z" finished-at="2019-07-01T17:39:04Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method user_enters_the_username_as_And_password_as requires 2 parameters but 0 were supplied in the @Test annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method user_enters_the_username_as_And_password_as requires 2 parameters but 0 were supplied in the @Test annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:193)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:129)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:385)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:495)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1253)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:980)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1070)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_enters_the_username_as_And_password_as -->
+        <test-method status="PASS" signature="user_opens_login_page_in_newtours_application()[pri:0, instance:stepdefinition.Login@26653222]" name="user_opens_login_page_in_newtours_application" duration-ms="16121" started-at="2019-07-01T17:39:04Z" finished-at="2019-07-01T17:39:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_opens_login_page_in_newtours_application -->
+        <test-method status="PASS" signature="verify_login_success()[pri:0, instance:stepdefinition.Login@26653222]" name="verify_login_success" duration-ms="2" started-at="2019-07-01T17:39:20Z" finished-at="2019-07-01T17:39:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_success -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:stepdefinition.Login@26653222]" name="closeApplication" is-config="true" duration-ms="1259" started-at="2019-07-01T17:39:20Z" finished-at="2019-07-01T17:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- stepdefinition.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
